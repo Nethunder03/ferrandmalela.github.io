@@ -43,19 +43,19 @@ const Navigation = () => {
             <div className='social-link'>
                 <ul>
                     <li>
-                        <a href='https://www.whatsapp.com/+22178605036/' target='_blank' rel='noopener noreferrer'><i className='fa-brands fa-whatsapp'></i></a>
+                        <a href='https://wa.me/+22178605036/' target='_blank' rel='noopener noreferrer'><i className='fa-brands fa-whatsapp'></i></a>
                     </li>
                     <li>
-                        <a href='https://www.telegram.com/@whisperback/' target='_blank' rel='noopener noreferrer'><i className='fa-brands fa-telegram'></i></a>
+                        <a href='https://t.me/whisperback/' target='_blank' rel='noopener noreferrer'><i className='fa-brands fa-telegram'></i></a>
                     </li>
                     <li>
                         <a href='https://www.linkedin.com/in/rock-ferrand-malela-4a5b491a9/' target='_blank' rel='noopener noreferrer'><i className='fa-brands fa-linkedin'></i></a>
                     </li>
                     <li>
-                        <a href='https://twitter.com/RockFerrand' target='_blank' rel='noopener noreferrer'><i className='fa-brands fa-x-twitter'></i></a>
+                        <a href='https://twitter.com/RockFerrandM' target='_blank' rel='noopener noreferrer'><i className='fa-brands fa-x-twitter'></i></a>
                     </li>
                     <li>
-                        <a href='https://github.com/RockFerrand' target='_blank' rel='noopener noreferrer'><i className='fa-brands fa-github'></i></a>
+                        <a href='https://github.com/Nethunder03' target='_blank' rel='noopener noreferrer'><i className='fa-brands fa-github'></i></a>
                     </li>
                 </ul>
             </div>

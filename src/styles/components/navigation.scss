@@ -60,7 +60,7 @@
                     transform: translate(3px, 3px);
                 }
                 a{
-                    color: $color-4;
+                    color: $color-2;
                 }
 
                 .navActive{
@@ -86,27 +86,36 @@
         grid-area: 3;
 
         ul{
-        display: flex;
+        display: inline-flex;
         width: 264px;
         justify-content: space-between;
-        padding: 0 14px;
+        
+        // padding: 0 14px;
 
 
-            li{
-                padding: .5rem .8rem;
+            li a{
+                // padding: .5rem .8rem;
+                display: inline-flex;
+                justify-content: center;
+                width: 45px;
+                height: 45px;
+                align-items: center;
                 border-radius: 50%;
-                background: $color-5;
-                color: $color-1;
+                background: transparent;
+                border: 2px solid $color-5;
+                color: $color-5;
                 font-size: 1.5rem;
                 transition: 0.3s ease;
                 cursor: pointer;
 
                 a:visited{
-                    color: $color-1;
+                    color: $color-4;
                 }
 
                 &:hover{
-                    background: $color-1;
+                    background: $color-5;
+                    color: $black;
+                    box-shadow: 0 0 20px $color-4;
                 }
             }
         }
@@ -119,7 +128,7 @@
         font-size: .7rem;
 
         p{
-            color: $color-5;
+            color: $color-1;
 
             &:hover{
                 color: $color-4;
@@ -155,7 +164,13 @@
     }
 
     .signature{
-        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f1f1f1;
+        text-align: center;
+        padding: 10px;
     }
 
 }
