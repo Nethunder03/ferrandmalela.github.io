@@ -8,12 +8,14 @@ $font-3: 'Josefin Sans', serif;
 $color-1: #2a1d52;
 $color-2: #6c77f4;
 $color-3: rgb(99, 164, 233);
+$color-4: #0d3ec5;
+$color-5: #0bbce9;
 $white: #ddd;
 $black: #333;
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
-$min-height: 95vh;
+$minHeight: 95vh;
 
 @mixin verticalCenter{
     display: flex;
@@ -55,15 +57,15 @@ a:visited{
 .home, .knowledges, .portfolio, .contact{
     display: flex;
 
-    @media screen and(max-width: 850px) {
+    @media screen and (max-width: 850px) {
         display: block !important;
     }
 }
 
 .homeContent, .knowledgesContent, .portfolioContent, .contactContent{
-    margin-left: .4rem;
+    margin-left: 4rem;
 
-    @media screen and(max-width: 850px) {
+    @media screen and (max-width: 850px) {
         margin-left: 0 !important;
     }
 }

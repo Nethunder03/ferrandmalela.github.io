@@ -3,15 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        <div>
-            <div className='sidebar'>
+        <div className='sidebar'>
                 <div className='id'>
                     <div className='idContent'>
-                        <img src="photo.jpg" alt='ma photo'/>
+                        <img src="letters-fm.png" alt='ma photo'/>
                         <h3>Rock Ferrand MALELA</h3>
                     </div>
                 </div>
-            </div>
 
             <div className='navigation'>
                 <ul>
