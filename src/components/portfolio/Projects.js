@@ -64,8 +64,44 @@ class Projects extends Component {
                             />
                         </Col>
                         </Row>
+                        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+                        <Col md={4} className="project-card">
+                            <ProjectList
+                            //imgPath={leaf}
+                            isBlog={false}
+                            title="Projet 1"
+                            description="Description"
+                            ghLink="https://github.com/Nethunder03"
+                            demoLink="https://plant49-ai.herokuapp.com/"
+                            />
+                        </Col>
+
+                        <Col md={4} className="project-card">
+                            <ProjectList
+                            //imgPath={emotion}
+                            isBlog={false}
+                            title="Projet 2"
+                            description="Description"
+                            ghLink="https://github.com/Nethunder03"
+                            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+                            />
+                        </Col>
+                        </Row>
                     </Container>
                 </Container>
+
+                <Container fluid className="project-section">
+                    <Container>
+                        <h1 className="project-heading">
+                        Mes <strong className="purple">Projets </strong>recent
+                        </h1>
+                        <p style={{ color: "white" }}>
+                        ...
+                        </p>
+                        
+                    </Container>
+                    </Container>
             </div>
         );
     }
