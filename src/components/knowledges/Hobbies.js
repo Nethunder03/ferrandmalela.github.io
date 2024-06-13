@@ -24,9 +24,6 @@ const Hobbies = () => {
                 < li className='hobby'>
                 <i className='fa-solid fa-gamepad'></i>
                     <sapan>Jeux de stratégie</sapan></li>
-                    < li className='hobby'>
-                <i className='fa-solid fa-book-open'></i>
-                    <sapan>Jeux de </sapan></li>
 
             </ul>
         </div>

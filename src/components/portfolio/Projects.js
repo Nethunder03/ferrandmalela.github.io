@@ -27,6 +27,7 @@ class Projects extends Component {
     render() {
         let {radios, selectedRadio} = this.state;
         return (
+            <div>
             <div className='portfolioContent'>
                 <ul className='radioDisplay'>
                     {
@@ -44,6 +45,8 @@ class Projects extends Component {
                         })
                     }
                 </ul>
+                </div>
+                <div>
                 <Container fluid className="project-section">
                     <Container>
                         <h1 className="project-heading">
@@ -99,10 +102,9 @@ class Projects extends Component {
                         <p style={{ color: "white" }}>
                         ...
                         </p>
-                        
                     </Container>
                     </Container>
-            </div>
+                </div></div>
         );
     }
 }

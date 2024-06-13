@@ -27,20 +27,18 @@
                     }
             }
         }
-
+    }
         .project-section {
             position: relative !important;
             padding-top: 15px !important;
             padding-bottom: 30px !important;
             background-image: var(--section-background-color) !important;
             flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  min-height: 100vh;
-            
-        
+            align-items: center;
+            justify-content: center;
+            font-size: calc(10px + 2vmin);
+            color: white;
+            min-height: 100vh;
           }
           
           .project-card {
@@ -130,7 +128,7 @@
             padding-top: 10px !important;
           }
           
-}
+
 
 
 @media screen and (max-width: 580px) {
