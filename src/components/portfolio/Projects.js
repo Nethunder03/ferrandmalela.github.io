@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectList from "./ProjectList";
 import logo1 from "../letters-fm.png";
-import { FaDatabase, FaChartPie, FaLaptopCode, FaThList } from 'react-icons/fa';
+import { FaChartPie, FaLaptopCode } from 'react-icons/fa';
 
 
 class Projects extends Component {
