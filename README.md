@@ -18,4 +18,4 @@ This is a personal portfolio website built with React.js and Bootstrap. It showc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/web-portfolio.git
+   https://github.com/Nethunder03/ferrandmalela.github.io.git
